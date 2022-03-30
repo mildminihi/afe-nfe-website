@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import Button from '@mui/material/Button';
+import leftlogonobg from './assets/leftlogonobg.svg';
 import './App.css';
+import { Box } from '@mui/system';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+
+      <div className='menu-bar'>
+        <img className='menu-logo' src={leftlogonobg} />
+        <Box>
+        <Button>Home</Button>
+        <Button>Art Works</Button>
+        <Button>Environmental Themes</Button>
+        <Button>How to Buy NFT</Button>
+        <Button>FAQ</Button>
+        <Button>About Us</Button>
+        </Box>
+        
+      </div>
+
       </header>
+      
     </div>
   );
 }

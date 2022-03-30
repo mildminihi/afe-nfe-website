@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.menu-bar {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #4ecca3;
+  align-items: center;
+  
+}
+
+.menu-logo {
+  width: 200px;
+  height: 80px;
+}
