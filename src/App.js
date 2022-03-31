@@ -2,8 +2,10 @@ import Button from '@mui/material/Button';
 import leftlogonobg from './assets/leftlogonobg.svg';
 import './App.css';
 import { Box } from '@mui/system';
+import { FAQContentBox } from './components/faq-list/faq-content-box.tsx';
 
 function App() {
+
   return (
     <div className="App">
       <header>
@@ -22,7 +24,7 @@ function App() {
       </div>
 
       </header>
-      
+      <FAQContentBox question={"What is a NFT"} answer={"eiei"} />
     </div>
   );
 }
